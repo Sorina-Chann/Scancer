@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/aclonicag</item>
+        <item>@font/allerta_stencil</item>
+        <item>@font/allerta_stencilr</item>
+        <item>@font/almendra_display</item>
+        <item>@font/beth_ellen</item>
+        <item>@font/bruno_ace_sc</item>
+        <item>@font/butcherman</item>
+        <item>@font/wendy_one</item>
+        <item>@font/zilla_slab_highlight</item>
+    </array>
+</resources>

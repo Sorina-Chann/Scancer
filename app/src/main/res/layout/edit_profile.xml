@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/imm"
+    android:elevation="0dp"
+    android:scrollbarSize="10dp"
+    tools:context=".EditProfile">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+
+
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:elevation="30dp"
+        android:textColorHint="@color/black"
+        app:boxBackgroundColor="@color/white2"
+        app:boxBackgroundMode="filled"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusTopStart="20dp"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        app:circularflow_defaultRadius="20dp"
+        app:circularflow_radiusInDP="20dp"
+        app:counterOverflowTextColor="@color/bluee"
+        app:counterTextColor="@color/bluee"
+
+        app:cursorColor="@color/bluee"
+        app:cursorErrorColor="@color/bluee"
+        app:endIconDrawable="@drawable/eraser"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/bluee"
+        app:hintTextAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:hintTextColor="@color/bluee"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2"
+        app:passwordToggleTint="@color/transp"
+        app:startIconDrawable="@drawable/user"
+        app:startIconTint="@color/bluee"
+        tools:ignore="NotSibling">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoSizePresetSizes="5dp"
+            android:background="@drawable/custom_ty"
+            android:fontFamily="@font/allerta_stencilr"
+            android:hint="User Name"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            tools:ignore="TouchTargetSizeCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="200dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="50dp"
+        android:elevation="400dp"
+        app:cardBackgroundColor="@color/transp"
+        app:cardElevation="0dp"
+        app:cardMaxElevation="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/prof" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/flot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:clickable="true"
+                android:outlineAmbientShadowColor="@color/bluee"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                app:srcCompat="@drawable/edit"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/uptate"
+        android:layout_width="137dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="@color/bluee"
+        android:fontFamily="@font/allerta_stencilr"
+        android:text="Update"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/canc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/canc"
+        app:layout_constraintTop_toTopOf="@+id/canc"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/wendy_one"
+        android:text="Edit Profile"
+        android:textColor="@color/black"
+        android:textSize="48sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/canc"
+        android:layout_width="137dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="@color/bluee"
+        android:fontFamily="@font/allerta_stencilr"
+        android:text="Cancel"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:cornerRadius="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout7"
+        tools:ignore="MissingConstraints" />
+
+    <ProgressBar
+        android:id="@+id/progressBarepr"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/canc" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

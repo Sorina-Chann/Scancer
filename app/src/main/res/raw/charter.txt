@@ -1,0 +1,40 @@
+scAncer – App Charter
+
+1. Introduction
+scAncer is a mobile application designed to assist users in the early detection of skin cancer through image analysis and to provide medical guidance to raise awareness and promote healthy skin practices.
+
+2. Mission
+Our mission is to empower individuals to take control of their skin health by using accessible technology to detect potential skin anomalies and connect them with appropriate educational and medical resources.
+
+3. Scope
+- Early skin cancer detection using AI-powered image analysis.
+- Delivery of medical tips and guidance based on dermatological best practices.
+- Informative user experience designed for educational and preventive purposes.
+
+4. Medical Disclaimer
+- scAncer does not replace a professional medical diagnosis.
+- Users are encouraged to consult a certified dermatologist for any suspicious skin conditions.
+- The app provides general medical guidance and early warning only.
+
+5. User Responsibility
+- Users must ensure the images they upload are clear and of good quality.
+- Users should not rely solely on the app's results for medical decisions.
+- Users must agree to the terms before using the diagnosis features.
+
+6. Data Usage and Privacy
+- All user data, including images, will be handled confidentially and in accordance with data protection regulations.
+- Currently, images are used only for on-device analysis or secure cloud evaluation.
+
+7. Future Use of User Images
+- By using the app, the user acknowledges that in future versions, their images may be used (anonymously) to improve the AI model through training.
+- Users will be notified and asked for explicit consent before any such use.
+- No personal identifying information will ever be shared.
+
+8. Consent and Agreement
+By using scAncer, users agree to:
+- This charter and its future updates.
+- The ethical use of AI in healthcare.
+- Providing accurate and appropriate information when prompted.
+
+9. Contact and Support
+For any inquiries, concerns, or feedback, users can contact our support team at:

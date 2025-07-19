@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "388884530396",
+    "firebase_url": "https://scancer-1e8e0-default-rtdb.firebaseio.com",
+    "project_id": "scancer-1e8e0",
+    "storage_bucket": "scancer-1e8e0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388884530396:android:abfb69b2ff040801a06019",
+        "android_client_info": {
+          "package_name": "com.example.scancer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIm4VyNE6jjc_T-J5Gq0s9Smc5uZjur0g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

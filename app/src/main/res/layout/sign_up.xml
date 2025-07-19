@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/imm"
+    android:elevation="0dp"
+    android:scrollbarSize="10dp"
+    tools:context=".SIGNUP">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/allerta_stencilr"
+        android:text="You already have an account?"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/canc" />
+
+    <TextView
+        android:id="@+id/signup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:fontFamily="@font/allerta_stencilr"
+        android:text="SIGN IN"
+        android:textColor="@color/bluee"
+        app:layout_constraintBottom_toBottomOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.013"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/canc"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:elevation="30dp"
+        android:textColorHint="@color/black"
+        app:boxBackgroundColor="@color/white2"
+        app:boxBackgroundMode="filled"
+        app:boxCornerRadiusBottomEnd="20dp"
+
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+
+        app:boxCornerRadiusTopStart="20dp"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        app:circularflow_defaultRadius="20dp"
+        app:circularflow_radiusInDP="20dp"
+        app:endIconDrawable="@drawable/eye"
+        app:endIconMinSize="30dp"
+
+
+        app:endIconMode="password_toggle"
+        app:endIconScaleType="center"
+        app:endIconTint="@color/bluee"
+        app:endIconTintMode="src_in"
+        app:errorIconTintMode="screen"
+        app:hintTextAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:hintTextColor="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.983"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout2"
+        app:passwordToggleTint="@color/transp"
+        app:startIconDrawable="@drawable/pass"
+        app:startIconTint="@color/bluee"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passwordEditText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_ty"
+            android:fontFamily="@font/allerta_stencilr"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            tools:ignore="TouchTargetSizeCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+
+
+        android:layout_marginRight="30dp"
+        android:elevation="30dp"
+        android:textColorHint="@color/black"
+        app:boxBackgroundColor="@color/white2"
+        app:boxBackgroundMode="filled"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+
+        app:boxCornerRadiusTopStart="20dp"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        app:circularflow_defaultRadius="20dp"
+        app:circularflow_radiusInDP="20dp"
+        app:counterOverflowTextColor="@color/bluee"
+        app:counterTextColor="@color/bluee"
+        app:cursorColor="@color/bluee"
+        app:cursorErrorColor="@color/bluee"
+        app:hintTextAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:hintTextColor="@color/bluee"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:passwordToggleTint="@color/transp"
+        app:startIconDrawable="@drawable/email"
+        app:startIconTint="@color/bluee"
+        tools:ignore="DuplicateIds">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoSizePresetSizes="5dp"
+            android:background="@drawable/custom_ty"
+            android:fontFamily="@font/allerta_stencilr"
+            android:hint="Email"
+
+            android:inputType="textEmailAddress"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+
+
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:elevation="30dp"
+        android:textColorHint="@color/black"
+        app:boxBackgroundColor="@color/white2"
+        app:boxBackgroundMode="filled"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusTopStart="20dp"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        app:circularflow_defaultRadius="20dp"
+        app:circularflow_radiusInDP="20dp"
+        app:counterOverflowTextColor="@color/bluee"
+        app:counterTextColor="@color/bluee"
+        app:cursorColor="@color/bluee"
+        app:cursorErrorColor="@color/bluee"
+        app:hintTextAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:hintTextColor="@color/bluee"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout7"
+        app:passwordToggleTint="@color/transp"
+        app:startIconDrawable="@drawable/user"
+        app:startIconTint="@color/bluee"
+        tools:ignore="DuplicateIds,MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoSizePresetSizes="5dp"
+            android:background="@drawable/custom_ty"
+            android:fontFamily="@font/allerta_stencilr"
+            android:hint="User name"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            tools:ignore="TouchTargetSizeCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="144dp"
+        android:fontFamily="@font/wendy_one"
+        android:text="Sign Up  "
+        android:textColor="@color/black"
+        android:textSize="48sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.216"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/allerta_stencilr"
+        android:text="Hello! let's join with us"
+        android:textColor="@color/bluee"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:elevation="30dp"
+        android:textColorHint="@color/black"
+        app:boxBackgroundColor="@color/white2"
+        app:boxBackgroundMode="filled"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusTopStart="20dp"
+
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        app:circularflow_defaultRadius="20dp"
+        app:circularflow_radiusInDP="20dp"
+        app:endIconDrawable="@drawable/eye"
+        app:endIconMinSize="30dp"
+        app:endIconMode="password_toggle"
+
+
+        app:endIconScaleType="center"
+        app:endIconTint="@color/bluee"
+        app:endIconTintMode="src_in"
+        app:errorIconTintMode="screen"
+        app:hintTextAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:hintTextColor="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout1"
+        app:passwordToggleTint="@color/transp"
+        app:startIconDrawable="@drawable/pass"
+        app:startIconTint="@color/bluee"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_ty"
+            android:fontFamily="@font/allerta_stencilr"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            tools:ignore="TouchTargetSizeCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/forgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="160dp"
+        android:fontFamily="@font/allerta_stencil"
+        android:text="I agree with privacy policy"
+        android:textColor="@color/bluee"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/checkBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/checkBox"
+        app:layout_constraintTop_toTopOf="@+id/checkBox"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/canc"
+        android:layout_width="137dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="@color/bluee"
+        android:fontFamily="@font/allerta_stencilr"
+        android:text="SIGN UP"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:cornerRadius="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/forgot"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/skiped"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.824"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:srcCompat="@drawable/skip" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:buttonTint="@color/bluee"
+        android:drawingCacheQuality="high"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:outlineAmbientShadowColor="@color/bluee"
+        android:outlineSpotShadowColor="@color/bluee"
+        android:shadowColor="@color/bluee"
+        android:textColor="@color/bluee"
+        android:textColorHighlight="@color/bluee"
+        android:textColorHint="@color/bluee"
+        android:textColorLink="@color/bluee"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
